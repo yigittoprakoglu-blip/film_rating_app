@@ -1,4 +1,4 @@
-# Film ve Dizi Platformu – Veritabanı Projesi
+# Film ve Dizi Platformu
 
 Veri Tabanı Yönetim Sistemleri dersi için hazırladığımız proje. Film ve dizilerin adını, konusunu,
 IMDb puanını, türlerini, yönetmenini, yapımcısını ve oyuncularını tutuyoruz. Filmlerin süresini saat
