@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FilmPlatformu.Arayuz</RootNamespace>
+    <AssemblyName>FilmPlatformu</AssemblyName>
+    <AssemblyTitle>Film ve Dizi Platformu - Veritabanı Arayüzü</AssemblyTitle>
+    <!-- Sadece Windows x64: gereksiz "runtimes\..." klasörleri oluşmaz, yol uzunluğu sorunu yaşanmaz -->
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <SatelliteResourceLanguages>tr;en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+  </ItemGroup>
+
+</Project>
